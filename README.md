@@ -14,12 +14,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 In the project you can also need the JSON Server.\
 You can run:
 
-### `json-server --watch data/db.json --port 8000`
-
-Open [http://localhost:8000](http://localhost:8000) to view it in your browser.
-
-## TASKNOTE
-![IMG](?)
+## ROUTEMATE
+![IMG](https://i.ibb.co/jRHygr9/routemate-01.jpg)
 route mate using using react router.
 
 Check Doc here.
