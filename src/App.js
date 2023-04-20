@@ -17,9 +17,9 @@ function App() {
       <Header />
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} /> 
           <Route path="products" element={<ProductList />} />
-          <Route path="products/1001" element={<ProductDetail />} />
+          <Route path="products/:id" element={<ProductDetail />} />
           <Route path="contact" element={<Contact />} />
           <Route path="admin" element={user ? <Admin /> : <Navigate to="/" />} />
         </Routes>
